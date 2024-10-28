@@ -5,7 +5,7 @@ import re
 
 
 def extract_input(input_line):
-    '''Extracts sections of a line of a HTTP request log.  
+    '''Extracts sections of a line of a HTTP request log.
     '''
     fp = (
         r'\s*(?P<ip>\S+)\s*',
